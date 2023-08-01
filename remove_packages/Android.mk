@@ -5,7 +5,7 @@ LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES :=  \
-    Maps Youtube TurboPrebuilt CalendarGoogle \
+    Maps YouTube TurboPrebuilt CalendarGoogle \
     RecorderPrebuilt PrebuiltGmail Gmail2 \
     Drive AndroidAutoStubPrebuilt AndroidAutoStub \
     Wellbeing WellbeingPrebuilt PersonalSafety \
