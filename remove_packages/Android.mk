@@ -10,7 +10,7 @@ LOCAL_OVERRIDES_PACKAGES :=  \
     Drive AndroidAutoStubPrebuilt AndroidAutoStub \
     Wellbeing WellbeingPrebuilt PersonalSafety \
     TurboAdapter SafetyHubPrebuilt arcore TagGoogle \
-    CalendarGooglePrebuilt Photos
+    CalendarGooglePrebuilt Photos Updater
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
