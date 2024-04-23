@@ -28,3 +28,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="lavender-user 10 QKQ1.190910.002 V12.5.3.0.QFGCNXM release-keys"
 
 BUILD_FINGERPRINT := xiaomi/lavender/lavender:10/QKQ1.190910.002/V12.5.3.0.QFGCNXM:user/release-keys
+
+PRODUCT_SYSTEM_PROPERTIES += \
+	ro.adb.secure=0 \
+        ro.debuggable=1 \
+	ro.force.debuggable=1 \
+        persist.sys.usb.config=adb
